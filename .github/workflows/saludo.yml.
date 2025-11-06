@@ -1,0 +1,9 @@
+name: Saludar desde GitHub Actions
+on: [push]
+jobs:
+saludar:
+runs-on: ubuntu-latest
+steps:
+- name: Saludar
+
+○ run: echo "¡Hola desde GitHub Actions! Tu código se actualizó correctamente."
